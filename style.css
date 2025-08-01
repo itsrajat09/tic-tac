@@ -12,7 +12,7 @@ h1{
     padding-bottom:30px;
 }
 .container{
-    height:500px;
+    height:700px;
     display:flex;
     flex-wrap: wrap;;
     justify-content: center;
