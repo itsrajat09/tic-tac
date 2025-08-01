@@ -1,4 +1,4 @@
-alert("ZOOM OUT if you are using Small screen")
+alert("zoom out if you using Phone");
 let boxes = document.querySelectorAll(".box")
 let msg_container = document.querySelector(".msg_container")
 let msg = document.querySelector(".msg")
@@ -52,8 +52,8 @@ const enabled_btn =()=>{
     }
 }
 
-const winnermsg = ()=>{
-msg.innerText = `congratulation ! you win`
+const winnermsg = (winner)=>{
+msg.innerText = `Winner is ${winner}`
 msg_container.classList.remove("hide")
 }
 const checkwinner = () => {
@@ -68,13 +68,17 @@ const checkwinner = () => {
 
      if (val1 != "" && val2 != "" && val3 != "") {
         if (val1 == val2 && val2 == val3) {
-            console.log("winner");
+            console.log("winner", val1);
             disabled_btn();
-            winnermsg();
+            winnermsg(val1);
         }
     }
 }
 };
+
+
+
+
 
 
 
