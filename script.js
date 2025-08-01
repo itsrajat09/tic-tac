@@ -1,4 +1,4 @@
-alert("zoom out if you using Phone");
+alert("zoom out if you are using Phone");
 let boxes = document.querySelectorAll(".box")
 let msg_container = document.querySelector(".msg_container")
 let msg = document.querySelector(".msg")
