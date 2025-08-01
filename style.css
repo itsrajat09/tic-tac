@@ -1,9 +1,10 @@
 * {
     margin: 0px;
     padding:0px;
-    width: 500px;
+    width: 700px;
 
 }
+
 body{
     background-color: rgb(15, 191, 133)
 }
@@ -12,7 +13,8 @@ h1{
     padding-bottom:30px;
 }
 .container{
-    height:700px;
+    
+    height:500px;
     display:flex;
     flex-wrap: wrap;;
     justify-content: center;
@@ -62,6 +64,8 @@ h1{
     
 }
 .msg_container{
+    color:red;
+    padding-top:50px;
     height : 100px;
     display: flex;
     flex-direction: column;
