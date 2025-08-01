@@ -1,3 +1,4 @@
+alert("ZOOM OUT if you are using Small screen")
 let boxes = document.querySelectorAll(".box")
 let msg_container = document.querySelector(".msg_container")
 let msg = document.querySelector(".msg")
